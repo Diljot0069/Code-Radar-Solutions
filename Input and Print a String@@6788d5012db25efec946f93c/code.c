@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 char* welcome() {
-    return "Hello"";
+    return "Hello";
 }
 
 int main() {
