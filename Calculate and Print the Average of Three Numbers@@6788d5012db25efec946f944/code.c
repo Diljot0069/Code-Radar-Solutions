@@ -2,9 +2,9 @@
 
 int main() {
     float a,b,c,d;
-    scanf(" %.2f",&a);
-    scanf(" %.2f",&b);
-    scanf(" %.2f",&c);
+    scanf(" %f",&a);
+    scanf(" %f",&b);
+    scanf(" %f",&c);
     d = a + b + c;
     printf("%.2f",d/3);
     return 0;
