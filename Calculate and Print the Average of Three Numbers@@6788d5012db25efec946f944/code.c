@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
+    int a,b,c,d;
     scanf(" %d",&a);
     scanf(" %d",&b);
     scanf(" %d",&c);
-    printf("%.2f",a + b + c/3);
+    d = a + b + c
+    printf("%.2f",d/3);
     return 0;
 }
