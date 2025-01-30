@@ -13,7 +13,7 @@ int main() {
     }else if(isdigit(a)){
         printf("Digit\n");
     }else{
-        printf("Special Character\n");
+        printf("Special Character");
     }
     return 0;
 }
