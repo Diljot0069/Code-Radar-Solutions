@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char a;
+    char a[100];
     scanf(" %c",&a);
     if(isalpha(a)){
         if( a == "a" || a == "e" || a == "i" || a == "o" || a == "u" || 
