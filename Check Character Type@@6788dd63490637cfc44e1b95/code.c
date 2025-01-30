@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include
+#include<ctype.h>
 
 int main() {
     char a;
