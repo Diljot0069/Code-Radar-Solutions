@@ -8,9 +8,9 @@ int main() {
             if(a % i == 0){
                 printf("Not Prime");
                 return 0;
+            }else{
+                printf("Not Prime");
             }
-        }else{
-            printf("Prime");
         }
     }else{
         printf("Not Prime");
