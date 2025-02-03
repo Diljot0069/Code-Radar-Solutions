@@ -12,8 +12,6 @@ int main() {
             }
         }
     printf("Prime");
-    }else if( a % 2 == 0){
-        printf("Not Prime");
     }
      
     return 0;
