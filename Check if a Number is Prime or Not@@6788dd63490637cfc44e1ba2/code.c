@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a,i;
+    int a;
     scanf("%d",&a);
     if(a >= 2){
-        for( i == 2;i * i <= a;i++){
+        for( int i == 2;i * i <= a;i++){
             if(a % i == 0){
                 printf("Not Prime");
             }else{
