@@ -14,7 +14,7 @@ int main() {
     }else if( i < 2){
         printf(" Not Prime");
     }else{
-        printf("Prime")
+        printf("Prime");
     }
     return 0;
 }
