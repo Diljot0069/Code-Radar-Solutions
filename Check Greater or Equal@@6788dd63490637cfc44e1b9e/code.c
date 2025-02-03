@@ -8,6 +8,5 @@ int main() {
     }else if( a < b){
         printf("No");
     }
-    printf("%s", welcome());
     return 0;
 }
