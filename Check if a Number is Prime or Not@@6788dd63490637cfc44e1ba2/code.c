@@ -11,8 +11,10 @@ int main() {
                 printf("Prime");
             }
         }
-    }else if( a < 2){
-        printf("Not Prime");
+    }else if( a == 2){
+        printf("Prime");
+    }elseif( a < 2){
+        printf("Not Prime")
     }else{
         printf("Prime");
     }
