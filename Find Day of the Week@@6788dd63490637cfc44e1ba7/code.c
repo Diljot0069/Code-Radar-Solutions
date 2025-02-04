@@ -2,11 +2,11 @@
 
 int main() {
     int a;
-    scanf("%f",&a);
+    scanf("%d",&a);
     if(a == 1){
         printf("Monday");
     }else if(a == 2){
-        printf("Tuesday")
+        printf("Tuesday");
     }else if(a == 3){
         printf("Wednesday");
     }else if(a == 4){
