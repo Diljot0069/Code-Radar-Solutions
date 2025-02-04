@@ -5,13 +5,11 @@ int main() {
     scanf("%d",&a);
     if(a <= 1 ){
         printf("Not Prime");
-    }elseif(
-        for(int i = 2;i * i <= a;i++)
-            if( a % i == 0)){
-                printf("Not Prime");}}
-            else{printf("Prime");}
-        
-    
-     
+    }elseif
+        (for(int i = 2;i * i <= a;i++)){
+            if(a%i==0){printf(Prime);}
+        }
+        else{printf("Not Prime");}
+            
     return 0;
 }
