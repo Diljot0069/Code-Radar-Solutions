@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    double a;
-    scanf("%lf",&a);
+    int a;
+    scanf("%f",&a);
     if(a == 1){
         printf("Monday");
     }else if(a == 2){
