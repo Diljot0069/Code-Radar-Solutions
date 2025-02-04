@@ -8,6 +8,5 @@ int main() {
     }else if( a > 0){
         printf("Freezing");
     }
-    printf("%s", welcome());
     return 0;
 }
