@@ -17,7 +17,7 @@ int main() {
         printf("31");
     }else if( a == 7){
         printf("30");
-    }else i( a == 8){
+    }else if( a == 8){
         printf("31");
     }else if( a == 9){
         printf("30");
