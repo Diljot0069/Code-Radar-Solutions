@@ -3,7 +3,8 @@
 int main() {
     int a, b = 1;
     scanf("%d",&a);
-    int result =  ( a >> b) & b;
+    int result =  ( a >> 31) & b;
+
     if( result == 0){
         printf("Not Set");
     }else{
