@@ -3,7 +3,7 @@
 int main() {
     int a;
     int b = 1;
-    scanf("%d",&a,&b);
+    scanf("%d",&a);
     int result = a & b;
     if ( result == 0){
         printf("Not Set");
