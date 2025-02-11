@@ -7,4 +7,4 @@ int main() {
     int result = (a >> b) & 1;
     printf("%d",result);
     return 0;
-
+}
