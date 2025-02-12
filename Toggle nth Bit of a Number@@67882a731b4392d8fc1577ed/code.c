@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a;
+    int a,b;
     scanf("%d %d",&a,&b);
     int c = a & ~(1 << b) ;
     c = 1<<b;
