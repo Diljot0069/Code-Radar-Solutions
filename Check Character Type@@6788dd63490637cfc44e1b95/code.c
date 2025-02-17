@@ -3,10 +3,10 @@
 
 int main() {
     char a;
-    scanf(" %c",&a);
+    scanf("%c",&a);
     if(isalpha(a)){
-        if( a == 'a' || a == 'e' || a == 'i'|| a == 'o' || a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'u'){
-        printf("Vowel");
+        if(a = 'a' || a = 'e' || a = 'i' ||a = 'o' ||a = 'u' ||a = 'A' ||a = 'E' ||a = 'I' ||a = 'O' ||a = 'U' ){
+            printf("Vowel");
         }else{
             printf("Consonant");
         }
@@ -15,5 +15,5 @@ int main() {
     }else{
         printf("Special Character");
     }
-    return 0;
+    
 }
