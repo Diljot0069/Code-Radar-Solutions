@@ -5,4 +5,5 @@ int main() {
     int result = a << b;
     printf("%d",result);
     return 0;
+
 }
