@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int a, b = 1;
+    int a;
     scanf("%d",&a);
-    int result =  ( a >> 31) & b;
-
-    if( result == 0){
-        printf("Not Set");
-    }else{
+    int result = a >> 31;
+    if( result == 1){
         printf("Set");
+    }else{
+        printf("Not set");
     }
     return 0;
+
+  
 }
