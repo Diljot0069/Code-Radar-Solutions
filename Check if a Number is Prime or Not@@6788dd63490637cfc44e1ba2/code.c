@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main() {
     int a;
@@ -14,14 +14,12 @@ int main() {
                 break;
             }
         }
-    }
-    if(prime){
+         if(prime){
         printf("Prime");
     }else{
         printf("Not Prime");
+    }   
     }
-
-   
-            
+      
     return 0;
 }
