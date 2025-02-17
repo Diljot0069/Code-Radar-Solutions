@@ -4,7 +4,7 @@ int main() {
     int a;
     scanf("%d",&a);
     int result = (a >> 31) & 1;
-    if( result == 0){
+    if(result){
         printf("Not Set");
     }else{
         printf("set");
