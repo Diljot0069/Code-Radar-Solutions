@@ -6,7 +6,7 @@ int main() {
     int result = a >> 1;
     if( result == 1){
         printf("Set");
-    }else if( result == 0){
+    }else{
         printf("Not Set");
     }
     return 0 ;
