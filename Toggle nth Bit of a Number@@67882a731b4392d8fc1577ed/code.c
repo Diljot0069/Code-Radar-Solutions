@@ -2,8 +2,9 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    int c = a & ~(1 << b) ;
-    c = 1<<b;
-    int result = a ^ c;
+    int c = 1 << b;
+    int result = a ^ b
     printf("%d",result);
+    return 0;
+
 }
