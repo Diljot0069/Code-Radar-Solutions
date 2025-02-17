@@ -2,13 +2,14 @@
 
 int main() {
     int a;
-    int b = 1;
     scanf("%d",&a);
-    int result = a & b;
-    if ( result == 0){
-        printf("Not Set");
-    }else{
+    result = a >> 1;
+    if( result == 1){
         printf("Set");
+    }else{
+        printf("Not Set");
     }
-    return 0;
+    return 0 ;
+
+  
 }
