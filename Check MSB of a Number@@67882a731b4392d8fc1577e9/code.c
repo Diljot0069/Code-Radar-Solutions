@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     int result = (a >> 31) & 1;
     if( result == 0){
-        printf(" Not Set");
+        printf("Not Set");
     }else{
         printf("set");
     }
