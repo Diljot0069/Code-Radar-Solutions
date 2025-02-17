@@ -3,23 +3,19 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if( a <= 1 ){
-        printf("Not Prime");
-        return 0;
-    }else{
-        int prime = 1;
-        for(int i = 2; i * i <= a; i++){
-            if(a % i == 0){
-                prime = 0;
-                break;
-            }
+    int prime = 0;
+    for(int i = 2; i <= a-1; i++){
+        if(a%i ==0){
+            prime = 1;
+            break;
         }
-         if(prime){
-        printf("Prime");
-    }else{
-        printf("Not Prime");
-    }   
     }
+    if( prime == 0){
+        printf("prime")
+    }else{
+        printf("Not prime");
+    }
+
       
     return 0;
 }
